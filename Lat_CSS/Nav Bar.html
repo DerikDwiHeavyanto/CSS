@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            .menu{position: sticky; width: 100%; margin: 0;}    
+            ul.horizontal{
+                position: sticky;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                background-color: #d10202;
+
+            }
+            ul.horizontal li{float: left;left: 10%;}
+            ul.horizontal li a{
+                display: block;
+                text-decoration:none;
+                color:white;
+              padding: 15px;
+                text-align: center;
+            }
+            ul.horizontal li a:hover{
+               color: aquamarine;
+            }
+            ul.vertical{
+                list-style-type: none;
+               padding: 0;
+               margin: 0;
+               
+               overflow: hidden;
+               background-color:#e2e0e0;
+               
+            }
+            ul.vertical li a{
+                display: block;
+                text-decoration: none;
+                color: black;
+                padding:15px;
+                text-align: left;
+            }
+            ul.vertical li a:hover{
+                background-color: #a57272;
+                color:white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="menu">
+            <ul class="horizontal">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Kontak</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="https://youtube.com" target = "_blank">Layanan</a></li>
+            </ul>
+        </div>
+
+        <nav>
+            <ul class="vertical">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Kontak</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Layanan</a></li>
+            </ul>
+        </nav>
+        
+    </body>
+</html>
